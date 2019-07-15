@@ -8,16 +8,15 @@ import java.util.Properties;
 
 public class ConnnectionUtil {
     static {
-
         Properties pro = new Properties();
         try {
             pro.load(ConnnectionUtil.class.getResourceAsStream("/db.properties"));
         } catch (IOException e) {
         }
-        String jdbc_driver = pro.getProperty("jdbc_driver");
-        String db_url = pro.getProperty("db_url");
-        String username = pro.getProperty("username");
-        String password = pro.getProperty("password");
+         String jdbc_driver = pro.getProperty("jdbc_driver");
+         db_url = pro.getProperty("db_url");
+         username = pro.getProperty("username");
+         password = pro.getProperty("password");
         try {
             Class.forName(jdbc_driver);
         } catch (ClassNotFoundException e) {

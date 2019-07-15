@@ -37,6 +37,5 @@ public class Exam2 {
         }finally{
             stmt.close();
         }
-        System.out.println("Goodbye!");
     }
 }
