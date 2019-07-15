@@ -4,8 +4,8 @@
 3. 执行build.sh
 4. 进入target目录
 5. java -jar Exam1-1.0-SNAPSHOT.jar
-<br>第二步可以跟随命令行参数
-   qita：表示用传统方式实现的类
+<br>第五步可以跟随命令行参数
+   qita：表示用传统方式实现的类<br>
    stream：表示用stream实现的方式（事实没有实现）
 <br>示例：
    java -jar Exam1-1.0-SNAPSHOT.jar qita
